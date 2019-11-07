@@ -3,7 +3,7 @@ defmodule ExOpentok.Mixfile do
 
   def project do
     [app: :ex_opentok,
-     version: "0.1.0",
+     version: "0.1.1",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -16,7 +16,7 @@ defmodule ExOpentok.Mixfile do
 
   defp deps do
     [{:uuid, "~> 1.1" },
-     {:joken, "~> 1.4.1"},
+     {:joken, "~> 2.0"},
      {:poison, "~> 2.0"},
      {:httpotion, "~> 3.0"},
      {:credo, "~> 0.5", only: [:dev, :test]}]
