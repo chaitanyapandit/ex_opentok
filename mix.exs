@@ -17,7 +17,7 @@ defmodule ExOpentok.Mixfile do
   defp deps do
     [{:uuid, "~> 1.1" },
      {:joken, "~> 2.0"},
-     {:poison, "~> 2.0"},
+     {:poison, "~> 3.0"},
      {:httpotion, "~> 3.0"},
      {:credo, "~> 0.5", only: [:dev, :test]}]
   end
